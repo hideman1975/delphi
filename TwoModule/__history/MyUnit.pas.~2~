@@ -1,0 +1,7 @@
+unit MyUnit;
+
+interface
+ var some;
+implementation
+ var some: 'From MyUnit';
+end.

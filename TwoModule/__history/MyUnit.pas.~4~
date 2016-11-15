@@ -1,0 +1,22 @@
+unit MyUnit;
+
+interface
+ procedure Test(var a,b: integer);
+ function Triangle(a,b: integer): integer;
+implementation
+ procedure Test(var a,b: integer);
+var
+ c: integer;
+ begin
+ a := 65;
+ c := a + b;
+ end;
+ function Triangle(a,b: integer): integer;
+var
+ c: integer;
+ begin
+ c := a + b;
+ result:= c;
+ end;
+
+end.

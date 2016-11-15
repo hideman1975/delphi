@@ -1,0 +1,19 @@
+unit TApple;
+
+interface
+
+type
+    TAppleClass = class
+    public
+      Mass: double;
+      Sort: string;
+      Radius: double;
+
+      procedure SetFields(NewMass: double; NewSort: string; NewRadius: double);
+
+  end;
+
+
+implementation
+
+end.

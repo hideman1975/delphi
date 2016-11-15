@@ -1,0 +1,13 @@
+unit MyUnit;
+
+interface
+ procedure Test(var a,b: integer);
+implementation
+ procedure Test(var a,b: integer);
+var
+ c: integer;
+ begin
+ a := 65;
+ c := a + b;
+ end;
+end.

@@ -1,0 +1,16 @@
+unit TApple;
+
+interface
+
+type
+    TApple = class
+    public
+      Mass: double;
+      Sort: string;
+      Radius: double;
+  end;
+
+
+implementation
+
+end.

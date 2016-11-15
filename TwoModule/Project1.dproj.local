@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016.11.11 09:29:25.745.pas,C:\Users\andrey.manaenko\Documents\RAD Studio\Projects\Unit1.pas=C:\Delphi\Study\TwoModule\MainUnit.pas</Transaction>
+    <Transaction>2016.11.11 09:29:25.778.dfm,C:\Users\andrey.manaenko\Documents\RAD Studio\Projects\Unit1.dfm=C:\Delphi\Study\TwoModule\MainUnit.dfm</Transaction>
+    <Transaction>2016.11.11 09:33:49.511.dproj,C:\Users\andrey.manaenko\Documents\RAD Studio\Projects\Project1.dproj=C:\Delphi\Study\TwoModule\Project1.dproj</Transaction>
+    <Transaction>2016.11.11 09:43:36.410.pas,C:\Delphi\Study\TwoModule\Unit1.pas=C:\Delphi\Study\TwoModule\MyUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>

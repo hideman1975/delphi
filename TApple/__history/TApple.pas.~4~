@@ -1,0 +1,36 @@
+unit TApple;
+
+interface
+
+uses SysUtils;
+
+type
+    TAppleClass = class
+    public
+      Mass: double;
+      Sort: string;
+      Radius: double;
+
+      procedure SetFields(NewMass: double; NewSort: string; NewRadius: double);
+      function ToString: string;
+  end;
+
+
+implementation
+
+{ TAppleClass }
+
+procedure TAppleClass.SetFields(NewMass: double; NewSort: string;
+  NewRadius: double);
+begin
+   Mass := NewMass;
+   Sort := NewSort;
+   Radius := NewRadius;
+end;
+
+function TAppleClass.ToString: string;
+begin
+  result := 'Apple, Mass:' + FloatToStr(Mass) + ', Sort: ' + Sort + ',Radius: ' + FloatToStr(Radius);
+end;
+
+end.

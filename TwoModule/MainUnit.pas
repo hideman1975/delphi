@@ -1,0 +1,58 @@
+unit MainUnit;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, MyUnit;
+
+type
+  TMain = class(TForm)
+    Button1: TButton;
+    Label1: TLabel;
+    Button2: TButton;
+    Label2: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Main: TMain;
+
+implementation
+
+{$R *.dfm}
+
+procedure TMain.Button1Click(Sender: TObject);
+var
+ a,b: Integer;
+ m: String;
+begin
+
+a := 5;
+b := 8;
+Test(a,b);
+//ShowMessage( 'Привет!');
+m  := IntToStr(a);
+Label1.Caption := m;
+
+end;
+
+procedure TMain.Button2Click(Sender: TObject);
+var
+ a,b,c: Integer;
+ m: String;
+begin
+
+a := 5;
+b := 8;
+c := Triangle(a,b);
+//ShowMessage( 'Привет!');
+m  := IntToStr(c);
+Label2.Caption := m;
+  end;
+end.
